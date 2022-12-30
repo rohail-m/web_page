@@ -12,12 +12,57 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+   <div class = "header">
+      <img class = "logo-image"
+      src="https://static8.depositphotos.com/1378583/1010/i/600/depositphotos_10108949-stock-photo-blue-flame-logo.jpg"
+      alt="Profile image"/>
+
+      <p class="shades"><strong>Shades</strong></p>
+      <p class="free_landing_pages"><strong>Free Landing Pages</strong></p>
+      <p class="feature"><strong>Features</strong></p>
+      <p class="service"><strong>Services</strong></p>
+      <p class="pricing"><strong>Pricing</strong></p>
+      <p class="contact"><strong>Contact</strong></p>
+
+      <button class = "get_started" onclick="alert('hello')">Get Started</button>
+    </div>
+
+    <div class="middle-part">
+      <p class="present-service">PRESENT YOUR SERVICE</p>
+      <h1 class="make-landing"><strong>Make landing page <br>fast and easily</strong></h1>
+      <p class="create-custom-landing">Create custom landing pages with Shades that convert<br> more visitors than any websites-no coding required.</p>
+            <div class="button_field">
+            <input class="email" placeholder="Enter your email">
+            <button class="subs" type="subscribe">Subscribe</button>
+            </div>
+      <p class="trused">Trused by over 50,000+ customers</p>
+    </div>
+
+    <div class="footer">
+
+     <div class="first_footer">
+      <img class="pen-iamage" src="data:image/png;base64,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" alt="pen_image">
+            <div class="easy">
+          <p><strong>Easy to use</strong></p>
+          <p class="editing">Editing and customising Essential landning is easy and fast.</p>
+            </div>
+          </div>
+          
+          <div class="second_footer">
+          <img class="pen-iamage" src="https://d6jm8y1nm8zsa.cloudfront.net/wp-content/uploads/2021/01/5d7a2431ef0e0f76a5a64fef_Artboard-8bisc-300x300.png" alt="data_image">
+                <div class="responsive">
+              <p><strong>100% Responsive</strong></p>
+              <p class="editing">Editing and customising Essential landning is easy and fast.</p>
+                </div>
+              </div>
+
+              <div class="third_footer">
+              <img class="pen-iamage" src="https://cdn4.vectorstock.com/i/1000x1000/41/83/smartphone-with-computer-blue-line-icon-vector-23654183.jpg" alt="computer_image">
+                    <div class="new_pages">
+                  <p><strong>50+ New Pages</strong></p>
+                  <p class="editing">Editing and customising Essential landning is easy and fast.</p>
+                    </div>
+                  </div>
+    </div>
   </body>
 </html>

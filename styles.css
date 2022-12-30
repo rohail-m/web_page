@@ -1,4 +1,185 @@
-* {
+h1{
+  font-size: 60px;
+}
+body{
+  background-color: aliceblue;
+}
+
+.logo-image{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: 1px solid;
+  border: none;
+  
+}
+
+.logo-image:hover{
+  cursor: pointer;
+}
+
+.header
+{
+  display: flex;
+}
+
+.shades
+{
+  font-family: system-ui, sans-serif;  
+}
+
+.free_landing_pages
+{
+  font-family: system-ui, sans-serif; 
+  margin-left: 50px;
+}
+.feature
+{
+  font-family: system-ui, sans-serif; 
+  margin-left: 50px;
+}
+
+
+.service
+{
+  font-family: system-ui, sans-serif; 
+  margin-left: 50px;
+}
+
+.pricing
+{
+  font-family: system-ui, sans-serif; 
+  margin-left: 50px;
+}
+
+.contact
+{
+  font-family: system-ui, sans-serif; 
+  margin-left: 50px;
+}
+
+.free_landing_pages:hover, .feature:hover, .service:hover, .pricing:hover, .contact:hover{
+  color: blue;
+}
+.email
+{
+  height: 35px;
+  width: 250px;
+  border-radius: 0.7rem;
+}
+.subs
+{
+  height: 40px;
+  width: 180px;
+  background-color: rgb(243, 161, 9);
+  color: white;
+  border-radius: 0.7rem;
+}
+
+.subs:hover{
+ background-color: blue;
+ cursor: pointer;
+}
+.get_started
+{
+  margin-left: 600px;
+  display: inline-block;
+  min-width: 10rem;
+  padding: 0.5rem;
+  border-radius: 0.9rem;
+  border: solid 1px #1183a8;
+  text-align: center;
+  text-decoration: none;
+  color : rgb(141, 141, 224);
+  background-color: white;
+  font-family: cursive;
+}
+  .get_started:hover
+  {
+    cursor: pointer;
+    background-color: rgb(148, 148, 218);
+    color: white;
+    border: 1px solid white;
+  }
+
+  .middle-part{
+    margin-top: 1%;
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;  
+  }
+
+  .footer{
+    display: flex;
+    margin: auto;
+    
+  }
+
+  .pen-iamage
+  {
+    margin-top: 105px;
+    border-radius: 20px;
+    height: 50px;
+  }   
+
+  
+  .first_footer
+  {
+    display: flex;
+   
+    
+  }
+
+  .second_footer
+  {
+    display: flex;
+    padding-left: 20%;
+    
+    justify-content: space-between;
+  }
+
+  .third_footer
+  {
+    display: flex;
+    padding-left: 20%;
+    
+    justify-content: space-between;
+  }
+  .easy
+  {
+   
+    margin: auto;
+    width: 230px;
+    margin-top: 100px;
+    margin-left: 10px;
+    
+  }
+
+  .editing
+  {
+    color: #d3d3d3;
+    font-size: small;
+  }
+
+  .responsive{
+    
+    margin: auto;
+    width: 230px;
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+
+  .new_pages{
+    
+    margin: auto;
+    width: 230px;
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+
+
+/** {
   box-sizing: border-box;
 }
 
@@ -44,3 +225,4 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+*/
